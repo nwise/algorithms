@@ -1,0 +1,31 @@
+# Created 2017-07-15 Sat 19:11
+#+TITLE: 
+#+AUTHOR: Nathan Wise
+* Chapter 1
+** Binary Search
+*** O(log n) - # of operations double as input squares (Binary Search)
+*** O(n) - # of operations increases linearly (Simple Search)
+*** O(n!) - # of operations is a factorial of input (Traveling Salesman)
+
+* Chapter 2
+** Arrays v Linked Lists
+| Operation | Array | List |
+| Reading   | O(1)  | O(n) |
+| Insertion | O(n)  | O(1) |
+| Deletion  | O(n)  | O(1) |
+** SelectionSort
+*** O(n * n )
+
+* Chapter 3
+** Recursion
+*** Recursive operations with a tall stack can be memory intensive
+*** Consider Tail Recursion
+
+* Chapter 4
+** Divide & Conquer to break down a list
+** QuickSort O(n log n)
+** Constant can matter sometimes in Big O
+
+* Chapter 5
+** Hash Tables
+*** Goal of O(1) lookup
