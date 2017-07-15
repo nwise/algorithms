@@ -46,7 +46,7 @@ max_steps =
   |> elem(0)
 
 
-IO.puts "Using binary search, I can find your number in less than #{max_steps} steps"
+IO.puts "Using binary search, I can find your number in less than #{max_steps} steps. O(log n)"
 IO.gets("Press <enter> to start")
 
 BinarySearch.search(list, to_find)
